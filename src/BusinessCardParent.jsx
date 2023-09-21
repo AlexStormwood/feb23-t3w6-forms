@@ -5,14 +5,30 @@ import BusinessCardDisplay from "./BusinessCardDisplay";
 export default class BusinessCardParent extends Component {
 	constructor(){
 		super();
+
+		this.state = {
+			editMode: false,
+			name: "Example name",
+			email:"example@email.com"
+		}
+
+
 	}
 
 	render(){
-		return(
-			<div>
-				<BusinessCardDisplay></BusinessCardDisplay>
-			</div>
-		)
+		if (this.state.editMode){
+			// if edit is true, show the form 
+		} else {
+			return(
+				<div>
+					<BusinessCardDisplay
+					email={this.state.email}
+					name={this.state.name}
+					 
+					 />
+				</div>
+			)
+		}
 	}
 }
 
