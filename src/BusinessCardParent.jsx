@@ -1,6 +1,7 @@
 import {Component} from "react";
 
 import BusinessCardDisplay from "./BusinessCardDisplay";
+import BusinessCardForm from "./BusinessCardForm";
 
 export default class BusinessCardParent extends Component {
 	constructor(){
@@ -18,6 +19,10 @@ export default class BusinessCardParent extends Component {
 	render(){
 		if (this.state.editMode){
 			// if edit is true, show the form 
+			return(
+				<BusinessCardForm />
+			)
+
 		} else {
 			return(
 				<div>
