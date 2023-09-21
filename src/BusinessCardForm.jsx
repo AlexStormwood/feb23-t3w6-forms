@@ -2,8 +2,8 @@ import { Component } from "react";
 
 
 export default class BusinessCardForm extends Component {
-	constructor(){
-		super();
+	constructor(props){
+		super(props);
 
 		this.state = {
 			name: this.props.name,
@@ -14,7 +14,8 @@ export default class BusinessCardForm extends Component {
 	render(){
 		return(
 			<form>
-				<label for="nameInput" >Name:</label>
+				{/* htmlFor instead of for for the JSX compiler */}
+				<label htmlFor="nameInput" >Name:</label>
 				<input type="text" name="nameInput" id="nameInput" />
 			</form>
 		)
