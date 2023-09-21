@@ -1,3 +1,16 @@
+# Forms lesson goals 
+
+Goals:
+- Forms with React class components 
+- Fun lil extra thing: edit-in-place components 
+- Requested stuff:
+	- focus on component communications & lifting state up 
+
+- Parent component, stores data
+	- Display component, receives data as props and displays it
+	- Form component, receives data as props, and functions as props, and displays a form and calls the received functions 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
