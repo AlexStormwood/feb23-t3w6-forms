@@ -7,14 +7,7 @@ function App() {
         <BusinessCardParent />
 
         <BusinessCardParent />
-        <BusinessCardParent />
-        <BusinessCardParent />
-        <BusinessCardParent />
-        <BusinessCardParent />
-        <BusinessCardParent />
-        <BusinessCardParent />
-        <BusinessCardParent />
-        <BusinessCardParent />
+
     </div>
   );
 }
