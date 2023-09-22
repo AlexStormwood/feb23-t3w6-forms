@@ -35,7 +35,7 @@ export default class BusinessCardParent extends Component {
 
 			} else if (stateKeyId === "email"){
 				// validation and sanitisation for email here 
-				
+
 			}
 
 
@@ -64,6 +64,8 @@ export default class BusinessCardParent extends Component {
 				name={this.state.name} 
 				email={this.state.email} 
 				setParentState={this.updateState}
+				// setEmailState={}
+				// setNameState={}
 				/>
 			)
 
