@@ -8,10 +8,15 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
+
+      <h1>This h1 shows on every page</h1>
+      <Navbar />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
 
